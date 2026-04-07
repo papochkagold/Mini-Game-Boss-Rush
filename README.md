@@ -1,17 +1,20 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Йоу, нужно написать тут документацию, а не это нейро-говно. versel еще-ж подкрутить. 
+# Простенькая мини-инди-игра на React
+Рабочий билд онлайн: https://mini-game-boss-rush.vercel.app/
+# Суть
+Побеждать боссов, собирая различные артефакты
+# Игровые механики
+А. Персонажи. Их трое, по идеи на каждом свой уникальный геймплей.
+Б. События. С шансом 50% после боя идет событие. В игре их 4.
+В. Кнопка уворота. На ней крутятся пару моментов в игре. Base dodge
+Г. Боссы. Главная механика. Их 5(+1 секретный). Все они разные и у каждого есть свой прописанный паттерн поведения, а-ля логика суждений, интеллект моба.
+Д. Автохилки. Без них туго, а если делать их прожимаемыми, то игра сложнее становится 
+# Потенциальные будущие моменты
+1. Починить баланс(невозможно)
+2. После событий должны даваться артефакты
+3. Починить выпадаемые пункты на d20
+4. Переработать предметы(более умнее что-ли сделать)
+5. Статус эффекты добавить
+6. Вариации боссов + новые персонажи
+7. Прогрессия из забега в забег(как в истинных rogue-like games)
+8. Интеллект боссов умнее прикрутить
+Больше для себя пункт. Если не забью
